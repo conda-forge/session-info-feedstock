@@ -1,13 +1,13 @@
 {% set name = "session-info" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/session_info-{{ version }}.tar.gz
-  sha256: 3cda5e03cca703f32ae2eadbd6bd80b6c21442cfb60e412c21cb8ad6d5cbb6b7
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/session_info-{{ version }}.tar.gz
+  sha256: d71950d5a8ce7f7f7d5e86aa208c148c4e50b5440b77d5544d422b48e4f3ed41
 
 build:
   noarch: python
